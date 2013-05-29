@@ -7,21 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MessageUI/MessageUI.h>
-#import <MessageUI/MFMailComposeViewController.h>
+
 
 
 
 
 @class KBScrollView;
 
-@interface SecondViewController : UIViewController   <UITextFieldDelegate, MFMailComposeViewControllerDelegate>
+@interface SecondViewController : UIViewController   <UITextFieldDelegate>
 
 {
     // Evaluacion finalizacion de tratamiento
 
     
-    IBOutlet UITextView *estasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica;
+    IBOutlet UITextView *EstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica;
     IBOutlet UITextView *SeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico;
     IBOutlet UITextView *CosasQueTeGustaronDeLaConsulta1;
     IBOutlet UITextView *CosasQueTeGustaronDeLaConsulta2;
@@ -80,7 +79,7 @@
 
 
 
-@property (nonatomic, retain) IBOutlet UITextView *estasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica;
+@property (nonatomic, retain) IBOutlet UITextView *EstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica;
 @property (nonatomic, retain) IBOutlet UITextView *SeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico;
 @property (nonatomic, retain) IBOutlet UITextView *CosasQueTeGustaronDeLaConsulta1;
 @property (nonatomic, retain) IBOutlet UITextView *CosasQueTeGustaronDeLaConsulta2;

@@ -13,7 +13,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <ImageIO/ImageIO.h>
 #import <AssetsLibrary/AssetsLibrary.h>
-#import "FirmaDigtalViewController.h"
+
 
 @interface SecondViewController ()
 
@@ -25,7 +25,7 @@
 
 @implementation SecondViewController
 
-@synthesize estasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica, SeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico, ConLaOrganizacionGeneralDeLaClinicaInsatisfecho, ConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho, ConLaOrganizacionGeneralDeLaClinicaMuySatisfecho, ConLaOrganizacionGeneralDeLaClinicaSatisfecho,ConLaOrganizacionGeneralDeLaClinicaTerminoMedio,ConLasInstalacionesDondeTrabajamosInsatisfecho,ConLasInstalacionesDondeTrabajamosMuyInsatisfecho,ConLasInstalacionesDondeTrabajamosMuySatisfecho,ConLasInstalacionesDondeTrabajamosSatisfecho,ConLasInstalacionesDondeTrabajamosTerminoMedio,ConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho,ConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho,ConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho,ConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho,ConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio,CosasQueTeGustaronDeLaConsulta1,CosasQueTeGustaronDeLaConsulta2,CosasQueTeGustaronDeLaConsulta3, SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho,SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho,SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho,SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho,SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio, RecomendariasOrtofaceUnAmigoConocidoNo, RecomendariasOrtofaceUnAmigoConocidoSi, AreasQueDebenSerMejoradas1, AreasQueDebenSerMejoradas2, AreasQueDebenSerMejoradas3, scrollView;
+@synthesize EstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica, SeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico, ConLaOrganizacionGeneralDeLaClinicaInsatisfecho, ConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho, ConLaOrganizacionGeneralDeLaClinicaMuySatisfecho, ConLaOrganizacionGeneralDeLaClinicaSatisfecho,ConLaOrganizacionGeneralDeLaClinicaTerminoMedio,ConLasInstalacionesDondeTrabajamosInsatisfecho,ConLasInstalacionesDondeTrabajamosMuyInsatisfecho,ConLasInstalacionesDondeTrabajamosMuySatisfecho,ConLasInstalacionesDondeTrabajamosSatisfecho,ConLasInstalacionesDondeTrabajamosTerminoMedio,ConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho,ConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho,ConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho,ConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho,ConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio,CosasQueTeGustaronDeLaConsulta1,CosasQueTeGustaronDeLaConsulta2,CosasQueTeGustaronDeLaConsulta3, SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho,SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho,SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho,SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho,SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio, RecomendariasOrtofaceUnAmigoConocidoNo, RecomendariasOrtofaceUnAmigoConocidoSi, AreasQueDebenSerMejoradas1, AreasQueDebenSerMejoradas2, AreasQueDebenSerMejoradas3, scrollView;
 
 @synthesize overlayImageView;
 @synthesize backgroundImageView;
@@ -52,10 +52,10 @@
 
 {
     
-    NSString *enviaStringestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica = estasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica.text;
-    NSUserDefaults *defaultsestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica = [NSUserDefaults standardUserDefaults];
-    [defaultsestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica setObject:enviaStringestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica forKey:@"enviaStringestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica"];
-    [defaultsestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica synchronize];
+    NSString *enviaStringEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica = EstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica.text;
+    NSUserDefaults *defaultsEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica = [NSUserDefaults standardUserDefaults];
+    [defaultsEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica setObject:enviaStringEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica forKey:@"enviaStringEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica"];
+    [defaultsEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica synchronize];
     
     NSString *enviaStringSeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico = SeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico.text;
     NSUserDefaults *defaultsSeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico = [NSUserDefaults standardUserDefaults];
@@ -205,9 +205,9 @@
 -(IBAction)cargarInformacion:(id)sender
 {
     
-    NSUserDefaults *defaultsestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica = [NSUserDefaults standardUserDefaults];
-    NSString *cargaStringestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica = [defaultsestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica:@"enviaStringestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica"];
-    [estasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica setText:cargaStringestasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica];
+    NSUserDefaults *defaultsEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica = [defaultsEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica objectForKey:@"enviaStringEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica"];
+    [EstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica setText:cargaStringEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica];
     
     NSUserDefaults *defaultsSeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico = [NSUserDefaults standardUserDefaults];
     NSString *cargaStringSeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico = [defaultsSeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico objectForKey:@"enviaStringSeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico"];
@@ -241,6 +241,90 @@
     NSString *cargaStringConLasInstalacionesDondeTrabajamosMuyInsatisfecho = [defaultsConLasInstalacionesDondeTrabajamosMuyInsatisfecho objectForKey:@"enviaStringConLasInstalacionesDondeTrabajamosMuyInsatisfecho"];
     [ConLasInstalacionesDondeTrabajamosMuyInsatisfecho setText:cargaStringConLasInstalacionesDondeTrabajamosMuyInsatisfecho];
     
+    NSUserDefaults *defaultsConLasInstalacionesDondeTrabajamosInsatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLasInstalacionesDondeTrabajamosInsatisfecho = [defaultsConLasInstalacionesDondeTrabajamosInsatisfecho objectForKey:@"enviaStringConLasInstalacionesDondeTrabajamosInsatisfecho"];
+    [ConLasInstalacionesDondeTrabajamosInsatisfecho setText:cargaStringConLasInstalacionesDondeTrabajamosInsatisfecho];
+    
+    NSUserDefaults *defaultsConLasInstalacionesDondeTrabajamosTerminoMedio = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLasInstalacionesDondeTrabajamosTerminoMedio = [defaultsConLasInstalacionesDondeTrabajamosTerminoMedio objectForKey:@"enviaStringConLasInstalacionesDondeTrabajamosTerminoMedio"];
+    [ConLasInstalacionesDondeTrabajamosTerminoMedio setText:cargaStringConLasInstalacionesDondeTrabajamosTerminoMedio];
+    
+    NSUserDefaults *defaultsConLasInstalacionesDondeTrabajamosSatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLasInstalacionesDondeTrabajamosSatisfecho = [defaultsConLasInstalacionesDondeTrabajamosSatisfecho objectForKey:@"enviaStringConLasInstalacionesDondeTrabajamosSatisfecho"];
+    [ConLasInstalacionesDondeTrabajamosSatisfecho setText:cargaStringConLasInstalacionesDondeTrabajamosSatisfecho];
+    
+    NSUserDefaults *defaultsConLasInstalacionesDondeTrabajamosMuySatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLasInstalacionesDondeTrabajamosMuySatisfecho = [defaultsConLasInstalacionesDondeTrabajamosMuySatisfecho objectForKey:@"enviaStringConLasInstalacionesDondeTrabajamosMuySatisfecho"];
+    [ConLasInstalacionesDondeTrabajamosMuySatisfecho setText:cargaStringConLasInstalacionesDondeTrabajamosMuySatisfecho];
+    
+    NSUserDefaults *defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho = [defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho objectForKey:@"enviaStringConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho"];
+    [ConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho setText:cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho];
+    
+    NSUserDefaults *defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho = [defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho objectForKey:@"enviaStringConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho"];
+    [ConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho setText:cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho];
+    
+    NSUserDefaults *defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio = [defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio objectForKey:@"enviaStringConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio"];
+    [ConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio setText:cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio];
+    
+    NSUserDefaults *defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho = [defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho objectForKey:@"enviaStringConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho"];
+    [ConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho setText:cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho];
+    
+    NSUserDefaults *defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho = [defaultsConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho objectForKey:@"enviaStringConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho"];
+    [ConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho setText:cargaStringConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho];
+    
+    NSUserDefaults *defaultsConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho = [defaultsConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho objectForKey:@"enviaStringConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho"];
+    [ConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho setText:cargaStringConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho];
+    
+    NSUserDefaults *defaultsConLaOrganizacionGeneralDeLaClinicaInsatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaOrganizacionGeneralDeLaClinicaInsatisfecho = [defaultsConLaOrganizacionGeneralDeLaClinicaInsatisfecho objectForKey:@"enviaStringConLaOrganizacionGeneralDeLaClinicaInsatisfecho"];
+    [ConLaOrganizacionGeneralDeLaClinicaInsatisfecho setText:cargaStringConLaOrganizacionGeneralDeLaClinicaInsatisfecho];
+    
+    
+    NSUserDefaults *defaultsConLaOrganizacionGeneralDeLaClinicaTerminoMedio = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaOrganizacionGeneralDeLaClinicaTerminoMedio = [defaultsConLaOrganizacionGeneralDeLaClinicaTerminoMedio objectForKey:@"enviaStringConLaOrganizacionGeneralDeLaClinicaTerminoMedio"];
+    [ConLaOrganizacionGeneralDeLaClinicaTerminoMedio setText:cargaStringConLaOrganizacionGeneralDeLaClinicaTerminoMedio];
+    
+    NSUserDefaults *defaultsConLaOrganizacionGeneralDeLaClinicaSatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaOrganizacionGeneralDeLaClinicaSatisfecho = [defaultsConLaOrganizacionGeneralDeLaClinicaSatisfecho objectForKey:@"enviaStringConLaOrganizacionGeneralDeLaClinicaSatisfecho"];
+    [ConLaOrganizacionGeneralDeLaClinicaSatisfecho setText:cargaStringConLaOrganizacionGeneralDeLaClinicaSatisfecho];
+    
+    NSUserDefaults *defaultsConLaOrganizacionGeneralDeLaClinicaMuySatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringConLaOrganizacionGeneralDeLaClinicaMuySatisfecho = [defaultsConLaOrganizacionGeneralDeLaClinicaMuySatisfecho objectForKey:@"enviaStringConLaOrganizacionGeneralDeLaClinicaMuySatisfecho"];
+    [ConLaOrganizacionGeneralDeLaClinicaMuySatisfecho setText:cargaStringConLaOrganizacionGeneralDeLaClinicaMuySatisfecho];
+    
+    NSUserDefaults *defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho = [defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho objectForKey:@"enviaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho"];
+    [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho setText:cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho];
+    
+    NSUserDefaults *defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho = [defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho objectForKey:@"enviaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho"];
+    [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho setText:cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho];
+    
+    NSUserDefaults *defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio = [defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio objectForKey:@"enviaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio"];
+    [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio setText:cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio];
+    
+    NSUserDefaults *defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho = [defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho objectForKey:@"enviaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho"];
+    [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho setText:cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho];
+    
+    NSUserDefaults *defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho = [defaultsSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho objectForKey:@"enviaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho"];
+    [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho setText:cargaStringSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho];
+    
+    NSUserDefaults *defaultsRecomendariasOrtofaceUnAmigoConocidoNo = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringRecomendariasOrtofaceUnAmigoConocidoNo = [defaultsRecomendariasOrtofaceUnAmigoConocidoNo objectForKey:@"enviaStringRecomendariasOrtofaceUnAmigoConocidoNo"];
+    [RecomendariasOrtofaceUnAmigoConocidoNo setText:cargaStringRecomendariasOrtofaceUnAmigoConocidoNo];
+    
+    NSUserDefaults *defaultsRecomendariasOrtofaceUnAmigoConocidoSi = [NSUserDefaults standardUserDefaults];
+    NSString *cargaStringRecomendariasOrtofaceUnAmigoConocidoSi = [defaultsRecomendariasOrtofaceUnAmigoConocidoSi objectForKey:@"enviaStringRecomendariasOrtofaceUnAmigoConocidoSi"];
+    [RecomendariasOrtofaceUnAmigoConocidoSi setText:cargaStringRecomendariasOrtofaceUnAmigoConocidoSi];
     
     
     
@@ -248,233 +332,127 @@
 }
 
 
--(IBAction)dismisseObservaciones:(id)sender
+-(IBAction)dismisseEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica:(id)sender
 {
     [sender resignFirstResponder];
 }
 
--(IBAction)dismisseFecha_Adulto:(id)sender
+-(IBAction)dismisseSeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseNombre_Adulto:(id)sender
+-(IBAction)dismisseCosasQueTeGustaronDeLaConsulta1:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseApellido_Adulto:(id)sender
+-(IBAction)dismisseCosasQueTeGustaronDeLaConsulta2:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseDireccion_Adulto:(id)sender
+-(IBAction)dismisseCosasQueTeGustaronDeLaConsulta3:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseNumero_Adulto:(id)sender
+-(IBAction)dismisseAreasQueDebenSerMejoradas1:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismissePiso_Adulto:(id)sender
+-(IBAction)dismisseAreasQueDebenSerMejoradas2:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseLocalidad_Adulto:(id)sender;
+-(IBAction)dismisseAreasQueDebenSerMejoradas3:(id)sender;
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseCodigoPostal_Adulto:(id)sender
+-(IBAction)dismisseConLasInstalacionesDondeTrabajamosMuyInsatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseFechaNacimiento_Adulto:(id)sender
+-(IBAction)dismisseConLasInstalacionesDondeTrabajamosInsatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseEdad_Adulto:(id)sender
+-(IBAction)dismisseConLasInstalacionesDondeTrabajamosTerminoMedio:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseTelefonoParticular_Adulto:(id)sender
+-(IBAction)dismisseConLasInstalacionesDondeTrabajamosSatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseCorreoElectronico_Adulto:(id)sender
+-(IBAction)dismisseConLasInstalacionesDondeTrabajamosMuySatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseMovil_Adulto:(id)sender
+-(IBAction)dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseQuienHaReferidoNuestraConsulta_Adulto:(id)sender
+-(IBAction)dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseProblemaPrincipalDeDientes_Adulto:(id)sender
+-(IBAction)dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismissePadeceEnfermedadNo_Adulto:(id)sender
+-(IBAction)dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismissePadeceEnfermedadSi_Adulto:(id)sender
+-(IBAction)dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismissePadeceEnfermedadCuales_Adulto:(id)sender
+-(IBAction)dismisseConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseAlergiaMedicamentosComidasNo_Adulto:(id)sender
+-(IBAction)dismisseConLaOrganizacionGeneralDeLaClinicaInsatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseAlergiaMedicamentosComidasSi_Adulto:(id)sender
+-(IBAction)dismisseConLaOrganizacionGeneralDeLaClinicaTerminoMedio:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseAlergiaMedicamentosComidasCuales_Adulto:(id)sender
+-(IBAction)dismisseConLaOrganizacionGeneralDeLaClinicaSatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseMedicacionUtilizada_Adulto:(id)sender
+-(IBAction)dismisseConLaOrganizacionGeneralDeLaClinicaMuySatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseTratamientoOrtodoncicoNo_Adulto:(id)sender
+-(IBAction)dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseTratamientoOrtodoncicoSi_Adulto:(id)sender
+-(IBAction)dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseTratamientoOrtodoncicoCuales_Adulto:(id)sender
+-(IBAction)dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseOperadoDeAmigdalasVegetacionesNo_Adulto:(id)sender
+-(IBAction)dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseOperadoDeAmigdalasVegetacionesSi_Adulto:(id)sender
+-(IBAction)dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseOperadoDeAmigdalasVegetacionesCuales_Adulto:(id)sender
+-(IBAction)dismisseRecomendariasOrtofaceUnAmigoConocidoNo:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseHipertensoNo_Adulto:(id)sender
+-(IBAction)dismisseRecomendariasOrtofaceUnAmigoConocidoSi:(id)sender
 {
     [sender resignFirstResponder];
 }
--(IBAction)dismisseHipertensoSi_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseEmbarazadaNo_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseEmbarazadaSi_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseFumadorNo_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseFumadorSi_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseAlergicoNo_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseAlergicoSi_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseProblemasCardiacosNo_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseProblemasCardiacosSi_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseProblemasCardiacosCuales_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseHepatitisA_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseHepatitisB_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseHepatitisC_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseAnemiaX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseDepresionX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseEpilepsiaX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseProblemasdeRinonesX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseUlcerasX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseDiabetesX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseHIVX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseProblemasTiroidesX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseProblemasPulmonaresX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseCanceresTumoresX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseMareosX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseDesmayosX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
--(IBAction)dismisseSangraEnciasX_Adulto:(id)sender
-{
-    [sender resignFirstResponder];
-}
-
-
 
 - (void)viewDidLoad
 {
@@ -490,224 +468,92 @@
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    if (textField == Fecha_Adulto) {
-        [Fecha_Adulto becomeFirstResponder];
+    if (textField == ConLasInstalacionesDondeTrabajamosMuyInsatisfecho) {
+        [ConLasInstalacionesDondeTrabajamosMuyInsatisfecho becomeFirstResponder];
     }
-    else if (textField == Nombre_Adulto)
+    else if (textField == ConLasInstalacionesDondeTrabajamosInsatisfecho)
     {
-        [Nombre_Adulto becomeFirstResponder];
+        [ConLasInstalacionesDondeTrabajamosInsatisfecho becomeFirstResponder];
     }
-    else if (textField == Apellido_Adulto)
+    else if (textField == ConLasInstalacionesDondeTrabajamosTerminoMedio)
     {
-        [Apellido_Adulto becomeFirstResponder];
+        [ConLasInstalacionesDondeTrabajamosTerminoMedio becomeFirstResponder];
     }
-    else if (textField == Direccion_Adulto)
+    else if (textField == ConLasInstalacionesDondeTrabajamosSatisfecho)
     {
-        [Direccion_Adulto becomeFirstResponder];
+        [ConLasInstalacionesDondeTrabajamosSatisfecho becomeFirstResponder];
     }
-    else if (textField == Numero_Adulto)
+    else if (textField == ConLasInstalacionesDondeTrabajamosMuySatisfecho)
     {
-        [Numero_Adulto becomeFirstResponder];
+        [ConLasInstalacionesDondeTrabajamosMuySatisfecho becomeFirstResponder];
     }
-    else if (textField == Piso_Adulto)
+    else if (textField == ConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho)
     {
-        [Piso_Adulto becomeFirstResponder];
+        [ConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho becomeFirstResponder];
     }
-    else if (textField == Localidad_Adulto)
+    else if (textField == ConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho)
     {
-        [Localidad_Adulto becomeFirstResponder];
+        [ConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho becomeFirstResponder];
     }
-    else if (textField == CodigoPostal_Adulto)
+    else if (textField == ConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio)
     {
-        [CodigoPostal_Adulto becomeFirstResponder];
+        [ConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio becomeFirstResponder];
     }
-    else if (textField == FechaNacimiento_Adulto)
+    else if (textField == ConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho)
     {
-        [FechaNacimiento_Adulto becomeFirstResponder];
+        [ConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho becomeFirstResponder];
     }
-    else if (textField == Edad_Adulto)
+    else if (textField == ConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho)
     {
-        [Edad_Adulto becomeFirstResponder];
+        [ConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho becomeFirstResponder];
     }
-    else if (textField == TelefonoParticular_Adulto)
+    else if (textField == ConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho)
     {
-        [TelefonoParticular_Adulto becomeFirstResponder];
+        [ConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho becomeFirstResponder];
     }
-    else if (textField == CorreoElectronico_Adulto)
+    else if (textField == ConLaOrganizacionGeneralDeLaClinicaInsatisfecho)
     {
-        [CorreoElectronico_Adulto becomeFirstResponder];
+        [ConLaOrganizacionGeneralDeLaClinicaInsatisfecho becomeFirstResponder];
     }
-    else if (textField == Movil_Adulto)
+    else if (textField == ConLaOrganizacionGeneralDeLaClinicaTerminoMedio)
     {
-        [Movil_Adulto becomeFirstResponder];
+        [ConLaOrganizacionGeneralDeLaClinicaTerminoMedio becomeFirstResponder];
     }
-    else if (textField == QuienHaReferidoNuestraConsulta_Adulto)
+    else if (textField == ConLaOrganizacionGeneralDeLaClinicaSatisfecho)
     {
-        [QuienHaReferidoNuestraConsulta_Adulto becomeFirstResponder];
+        [ConLaOrganizacionGeneralDeLaClinicaSatisfecho becomeFirstResponder];
     }
-    else if (textField == ProblemaPrincipalDeDientes_Adulto)
+    else if (textField == ConLaOrganizacionGeneralDeLaClinicaMuySatisfecho)
     {
-        [ProblemaPrincipalDeDientes_Adulto becomeFirstResponder];
+        [ConLaOrganizacionGeneralDeLaClinicaMuySatisfecho becomeFirstResponder];
     }
-    else if (textField == PadeceEnfermedadNo_Adulto)
+    else if (textField == SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho)
     {
-        [PadeceEnfermedadNo_Adulto becomeFirstResponder];
+        [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho becomeFirstResponder];
     }
-    else if (textField == PadeceEnfermedadSi_Adulto)
+    else if (textField == SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho)
     {
-        [PadeceEnfermedadSi_Adulto becomeFirstResponder];
+        [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho becomeFirstResponder];
     }
-    else if (textField == PadeceEnfermedadCuales_Adulto)
+    else if (textField == SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio)
     {
-        [PadeceEnfermedadCuales_Adulto becomeFirstResponder];
+        [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio becomeFirstResponder];
     }
-    else if (textField == AlergiaMedicamentosComidasNo_Adulto)
+    else if (textField == SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho)
     {
-        [AlergiaMedicamentosComidasNo_Adulto becomeFirstResponder];
+        [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho becomeFirstResponder];
     }
-    else if (textField == AlergiaMedicamentosComidasSi_Adulto)
+    else if (textField == SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho)
     {
-        [AlergiaMedicamentosComidasSi_Adulto becomeFirstResponder];
+        [SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho becomeFirstResponder];
     }
-    else if (textField == AlergiaMedicamentosComidasCuales_Adulto)
+    else if (textField == RecomendariasOrtofaceUnAmigoConocidoNo)
     {
-        [AlergiaMedicamentosComidasCuales_Adulto becomeFirstResponder];
+        [RecomendariasOrtofaceUnAmigoConocidoNo becomeFirstResponder];
     }
-    else if (textField == MedicacionUtilizada_Adulto)
+    else if (textField == RecomendariasOrtofaceUnAmigoConocidoSi)
     {
-        [MedicacionUtilizada_Adulto becomeFirstResponder];
-    }
-    else if (textField == TratamientoOrtodoncicoNo_Adulto)
-    {
-        [TratamientoOrtodoncicoNo_Adulto becomeFirstResponder];
-    }
-    else if (textField == TratamientoOrtodoncicoSi_Adulto)
-    {
-        [TratamientoOrtodoncicoSi_Adulto becomeFirstResponder];
-    }
-    else if (textField == TratamientoOrtodoncicoEdad_Adulto)
-    {
-        [TratamientoOrtodoncicoEdad_Adulto becomeFirstResponder];
-    }
-    else if (textField == OperadoDeAmigdalasVegetacionesNo_Adulto)
-    {
-        [OperadoDeAmigdalasVegetacionesNo_Adulto becomeFirstResponder];
-    }
-    else if (textField == OperadoDeAmigdalasVegetacionesSi_Adulto)
-    {
-        [OperadoDeAmigdalasVegetacionesSi_Adulto becomeFirstResponder];
-    }
-    else if (textField == OperadoDeAmigdalasVegetacionesEdad_Adulto)
-    {
-        [OperadoDeAmigdalasVegetacionesEdad_Adulto becomeFirstResponder];
-    }
-    else if (textField == HipertensoNo_Adulto)
-    {
-        [HipertensoNo_Adulto becomeFirstResponder];
-    }
-    else if (textField == HipertensoSi_Adulto)
-    {
-        [HipertensoSi_Adulto becomeFirstResponder];
-    }
-    else if (textField == EmbarazadaNo_Adulto)
-    {
-        [EmbarazadaNo_Adulto becomeFirstResponder];
-    }
-    else if (textField == EmbarazadaSi_Adulto)
-    {
-        [EmbarazadaSi_Adulto becomeFirstResponder];
-    }
-    else if (textField == FumadorNo_Adulto)
-    {
-        [FumadorNo_Adulto becomeFirstResponder];
-    }
-    else if (textField == FumadorSi_Adulto)
-    {
-        [FumadorSi_Adulto becomeFirstResponder];
-    }
-    else if (textField == AlergicoNo_Adulto)
-    {
-        [AlergicoNo_Adulto becomeFirstResponder];
-    }
-    else if (textField == AlergicoSi_Adulto)
-    {
-        [AlergicoSi_Adulto becomeFirstResponder];
-    }
-    else if (textField == ProblemasCardiacosNo_Adulto)
-    {
-        [ProblemasCardiacosNo_Adulto becomeFirstResponder];
-    }
-    else if (textField == ProblemasCardiacosSi_Adulto)
-    {
-        [ProblemasCardiacosSi_Adulto becomeFirstResponder];
-    }
-    else if (textField == ProblemasCardiacosCuales_Adulto)
-    {
-        [ProblemasCardiacosCuales_Adulto becomeFirstResponder];
-    }
-    else if (textField == HepatitisA_Adulto)
-    {
-        [HepatitisA_Adulto becomeFirstResponder];
-    }
-    else if (textField == HepatitisB_Adulto)
-    {
-        [HepatitisB_Adulto becomeFirstResponder];
-    }
-    else if (textField == HepatitisC_Adulto)
-    {
-        [HepatitisC_Adulto becomeFirstResponder];
-    }
-    else if (textField == AnemiaX_Adulto)
-    {
-        [AnemiaX_Adulto becomeFirstResponder];
-    }
-    else if (textField == DepresionX_Adulto)
-    {
-        [DepresionX_Adulto becomeFirstResponder];
-    }
-    else if (textField == EpilepsiaX_Adulto)
-    {
-        [EpilepsiaX_Adulto becomeFirstResponder];
-    }
-    else if (textField == ProblemasdeRinonesX_Adulto)
-    {
-        [ProblemasdeRinonesX_Adulto becomeFirstResponder];
-    }
-    else if (textField == UlcerasX_Adulto)
-    {
-        [UlcerasX_Adulto becomeFirstResponder];
-    }
-    else if (textField == DiabetesX_Adulto)
-    {
-        [DiabetesX_Adulto becomeFirstResponder];
-    }
-    else if (textField == HIVX_Adulto)
-    {
-        [HIVX_Adulto becomeFirstResponder];
-    }
-    else if (textField == ProblemasTiroidesX_Adulto)
-    {
-        [ProblemasTiroidesX_Adulto becomeFirstResponder];
-    }
-    else if (textField == ProblemasPulmonaresX_Adulto)
-    {
-        [ProblemasPulmonaresX_Adulto becomeFirstResponder];
-    }
-    else if (textField == CanceresTumoresX_Adulto)
-    {
-        [CanceresTumoresX_Adulto becomeFirstResponder];
-    }
-    else if (textField == MareosX_Adulto)
-    {
-        [MareosX_Adulto becomeFirstResponder];
-    }
-    else if (textField == DesmayosX_Adulto)
-    {
-        [DesmayosX_Adulto becomeFirstResponder];
-    }
-    else if (textField == SangraEnciasX_Adulto)
-    {
-        [SangraEnciasX_Adulto becomeFirstResponder];
+        [RecomendariasOrtofaceUnAmigoConocidoSi becomeFirstResponder];
     }
     else
     {
@@ -771,62 +617,11 @@
                                                     message:@"Proceso realizado Satisfactoriamente"
                                                    delegate:nil
                                           cancelButtonTitle:nil
-                                          otherButtonTitles:@"OK!", nil];
-    
+                                          otherButtonTitles:@"OK!", nil];    
     [alert show];
-    
-    
-        /*MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
-        
-        picker.mailComposeDelegate = self;
-        
-        
-        [picker setSubject:@"Envío *.jpg para base de datos Nuevos pacientes"];
-        
-        NSArray *toRecipient = [NSArray arrayWithObject:@"phdafoe@gmail.com"];
-        
-        [picker setToRecipients:toRecipient];
-        
-        
-        NSData *imageData = UIImageJPEGRepresentation(image, 1);
-        
-        [picker addAttachmentData:imageData mimeType:@"../jpg" fileName:@"Screenshot.jpg"];
-        
-        NSString *emailBody = @"Texto complementario";
-        
-        [picker setMessageBody:emailBody isHTML:NO];
-        
-        [self presentViewController:picker animated:YES completion:nil];*/
-    
-    
     return image;
  
 }
-
-/*- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
-{
-    switch (result)
-    {
-        case MFMailComposeResultCancelled:
-            NSLog(@"Mail cancelled: you cancelled the operation and no email message was queued.");
-            break;
-        case MFMailComposeResultSaved:
-            NSLog(@"Mail saved: you saved the email message in the drafts folder.");
-            break;
-        case MFMailComposeResultSent:
-            NSLog(@"Mail send: the email message is queued in the outbox. It is ready to send.");
-            break;
-        case MFMailComposeResultFailed:
-            NSLog(@"Mail failed: the email message was not saved or queued, possibly due to an error.");
-            break;
-        default:
-            NSLog(@"Mail not sent.");
-            break;
-    }
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
-}*/
-
 
 -(void)displayScreenshotImage
 {
