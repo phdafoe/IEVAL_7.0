@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--First View Controller - ORTOFACE-->
@@ -9,19 +10,19 @@
             <objects>
                 <viewController storyboardIdentifier="Ortoface" id="2" customClass="FirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
-                        <rect key="frame" x="0.0" y="64" width="768" height="911"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FONDO_BIENVENIDOS.jpg" id="CRV-OM-eXa">
-                                <rect key="frame" x="0.0" y="44" width="768" height="911"/>
+                                <rect key="frame" x="0.0" y="44" width="768" height="931"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo.jpg" id="H2Y-5U-0ae">
-                                <rect key="frame" x="3" y="11" width="344" height="66"/>
+                                <rect key="frame" x="3" y="75" width="344" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="right" id="i08-Pn-brS">
-                                <rect key="frame" x="459" y="61" width="298" height="49"/>
+                                <rect key="frame" x="457" y="113" width="298" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Clínica especializada en prevención
 y alteraciones de la oclusión</string>
@@ -29,7 +30,7 @@ y alteraciones de la oclusión</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" secureTextEntry="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="right" id="1yN-Gh-vQT">
-                                <rect key="frame" x="434" y="0.0" width="323" height="32"/>
+                                <rect key="frame" x="432" y="59" width="323" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Dr. Jesús Fernández Sánchez
 </string>
@@ -37,7 +38,7 @@ y alteraciones de la oclusión</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" secureTextEntry="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="right" id="kpV-v1-vXd">
-                                <rect key="frame" x="434" y="25" width="323" height="57"/>
+                                <rect key="frame" x="432" y="79" width="323" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Paseo de las Delicias 55 1º dcha, MADRID
 clinica@ortoface.es</string>
@@ -45,28 +46,20 @@ clinica@ortoface.es</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" secureTextEntry="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="www.ortoface.com  - " textAlignment="right" id="slZ-Vv-nwK">
-                                <rect key="frame" x="497" y="42" width="139" height="33"/>
+                                <rect key="frame" x="486" y="96" width="139" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" secureTextEntry="YES"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="AvY-9U-rb6">
-                                <rect key="frame" x="49" y="575" width="178" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">¿Qué es Ortoface?
-</string>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="7FH-A4-oQx">
-                                <rect key="frame" x="33" y="638" width="306" height="253"/>
+                                <rect key="frame" x="33" y="663" width="306" height="234"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Ortoface es una clínica dedicada a la Ortodoncia en exclusiva desde 1992 con especial énfasis en el tratamiento de los pacientes con malformaciones faciales (Fisura de labio y paladar, Labio leporino) esqueléticas o sindrómicas (Síndrome de Down, Síndrome de Turner, Síndrome de Crouzon, Sïndrome de Pierre Robin).                                              Trabajamos de forma multidisciplinar y coordinada con cirujanos especialistas, pediatras y odontólogos en forma de sesiones clínicas conjuntas, lo que pretende garantizar un resultado de alta calidad estética y funcional.                                 </string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" secureTextEntry="YES"/>
                             </textView>
                             <view alpha="0.50000000000000011" contentMode="scaleToFill" id="jTX-YB-tIh">
-                                <rect key="frame" x="0.0" y="910" width="768" height="45"/>
+                                <rect key="frame" x="0.0" y="930" width="768" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Telf: 91/539 38 19 - 91/528 87 16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LcR-mh-lQC" userLabel="Label - MADRID, Paseo de las Delicias 55 1º dcha">
@@ -108,15 +101,15 @@ clinica@ortoface.es</string>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="wIK-FL-2zQ">
-                                <rect key="frame" x="29" y="120" width="708" height="412"/>
+                                <rect key="frame" x="29" y="147" width="708" height="412"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="tit_banner.jpg" id="Rjs-lL-1nI">
-                                <rect key="frame" x="-20" y="547" width="806" height="72"/>
+                                <rect key="frame" x="-20" y="559" width="806" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleAspectFit" id="EYe-iQ-QjF" customClass="iCarousel">
-                                <rect key="frame" x="413" y="606" width="230" height="265"/>
+                                <rect key="frame" x="413" y="627" width="230" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
@@ -125,14 +118,14 @@ clinica@ortoface.es</string>
                                 </connections>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="¿QUÉ ES ORTOFACE?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pVb-hh-tsU">
-                                <rect key="frame" x="39" y="604" width="280" height="34"/>
+                                <rect key="frame" x="39" y="634" width="280" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="23"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" id="iRB-d3-qZ4">
-                                <rect key="frame" x="29" y="523" width="708" height="36"/>
+                                <rect key="frame" x="29" y="549" width="708" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.081328734429999994" green="0.4694272733" blue="0.88699473510000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -160,15 +153,15 @@ clinica@ortoface.es</string>
             <objects>
                 <viewController id="3" customClass="SecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="LEI-QO-wLO" userLabel="KBScrollView" customClass="KBScrollView">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FONDO_BIENVENIDOS.jpg" id="ei0-xl-Wj3">
-                                        <rect key="frame" x="-1" y="0.0" width="768" height="960"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="1026"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo_comentarios_usuarios.jpg" id="0g8-5T-tU7">
@@ -290,7 +283,7 @@ clinica@ortoface.es</string>
                                         </connections>
                                     </textField>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="iUa-vs-otL">
-                                        <rect key="frame" x="20" y="91" width="728" height="72"/>
+                                        <rect key="frame" x="36" y="81" width="700" height="82"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -302,7 +295,7 @@ clinica@ortoface.es</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="dWh-7i-n4Q">
-                                        <rect key="frame" x="22" y="189" width="728" height="72"/>
+                                        <rect key="frame" x="36" y="181" width="700" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -429,7 +422,7 @@ clinica@ortoface.es</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="ql0-mk-MJK">
-                                        <rect key="frame" x="52" y="326" width="696" height="28"/>
+                                        <rect key="frame" x="52" y="322" width="696" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -441,7 +434,7 @@ clinica@ortoface.es</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="HtW-aM-NJr">
-                                        <rect key="frame" x="52" y="361" width="696" height="28"/>
+                                        <rect key="frame" x="52" y="356" width="696" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -453,7 +446,7 @@ clinica@ortoface.es</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="7xy-vG-1yD">
-                                        <rect key="frame" x="52" y="396" width="696" height="28"/>
+                                        <rect key="frame" x="52" y="391" width="696" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -471,7 +464,7 @@ clinica@ortoface.es</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="pEa-6C-lfr">
-                                        <rect key="frame" x="52" y="450" width="696" height="28"/>
+                                        <rect key="frame" x="52" y="445" width="696" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -483,7 +476,7 @@ clinica@ortoface.es</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="fbQ-Ax-BU8">
-                                        <rect key="frame" x="52" y="485" width="696" height="28"/>
+                                        <rect key="frame" x="52" y="480" width="696" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -495,13 +488,13 @@ clinica@ortoface.es</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="oeX-F3-bQz">
-                                        <rect key="frame" x="52" y="520" width="696" height="28"/>
+                                        <rect key="frame" x="52" y="515" width="696" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Rcr-9O-UyN">
-                                        <rect key="frame" x="661" y="805" width="45" height="30"/>
+                                        <rect key="frame" x="681" y="830" width="45" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" image="boton_enviar_mail.png">
@@ -516,7 +509,7 @@ clinica@ortoface.es</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Enviar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z5K-hT-dMs">
-                                        <rect key="frame" x="656" y="831" width="55" height="21"/>
+                                        <rect key="frame" x="676" y="856" width="55" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Oblique" family="Helvetica" pointSize="13"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -582,6 +575,15 @@ clinica@ortoface.es</string>
                                             <action selector="dismisseRecomendariasOrtofaceUnAmigoConocidoSi:" destination="3" eventType="editingDidEnd" id="Mvd-dm-XMX"/>
                                         </connections>
                                     </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre  y Apellido" minimumFontSize="17" id="C8s-b2-rek">
+                                        <rect key="frame" x="16" y="856" width="289" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dismisseRecomendariasOrtofaceUnAmigoConocidoSi:" destination="3" eventType="editingDidEnd" id="aYM-UB-oic"/>
+                                        </connections>
+                                    </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="No" minimumFontSize="17" id="roW-KL-biC">
                                         <rect key="frame" x="71" y="814" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -597,9 +599,10 @@ clinica@ortoface.es</string>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Gracias por tu ayuda al evaluar nuestros procedimientos y la eficiencia y dedicación de todo el quipo" textAlignment="center" id="BJO-nB-KsC">
-                                        <rect key="frame" x="227" y="820" width="298" height="76"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="BJO-nB-KsC">
+                                        <rect key="frame" x="330" y="820" width="318" height="95"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Si quieres puedes permanecer anónimo. Gracias por tu ayuda al evaluar nuestros procedimientos y la eficiencia y dedicación de todo el quipo</string>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
@@ -656,7 +659,7 @@ clinica@ortoface.es</string>
                 </imageView>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4014" y="1284"/>
+            <point key="canvasLocation" x="4017" y="1284"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -684,8 +687,8 @@ clinica@ortoface.es</string>
                 <navigationController id="ra6-xy-gDj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="FINAL TRATAMIENTO" image="adultos.png" id="6"/>
                     <toolbarItems/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="e61-Xw-DHb">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="e61-Xw-DHb">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -698,54 +701,14 @@ clinica@ortoface.es</string>
             </objects>
             <point key="canvasLocation" x="3040" y="1284"/>
         </scene>
-        <!--Super Galeria View Controller - INFORMACION-->
-        <scene sceneID="UMe-GM-mbv">
-            <objects>
-                <viewController storyboardIdentifier="Ortoface2" id="4qr-4S-unP" customClass="SuperGaleriaViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oQr-Wh-ytm">
-                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FONDO_BIENVENIDOS.jpg" id="7jf-HS-ivy">
-                                <rect key="frame" x="0.0" y="44" width="768" height="911"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="xnh-LB-1a3">
-                                <rect key="frame" x="0.0" y="93" width="768" height="881"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            </scrollView>
-                            <pageControl opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="lKT-N8-bde">
-                                <rect key="frame" x="0.0" y="879" width="768" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="currentPageIndicatorTintColor" red="0.081328734427634206" green="0.4694272733389564" blue="0.88699473505434778" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <action selector="clickPageControll:" destination="4qr-4S-unP" eventType="valueChanged" id="EJ0-xE-EwN"/>
-                                </connections>
-                            </pageControl>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="ORTOFACE" image="ortoface.png" id="tEX-5G-Qz5"/>
-                    <navigationItem key="navigationItem" title="INFORMACION" id="Wrb-UU-Xrz"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <connections>
-                        <outlet property="pageControll" destination="lKT-N8-bde" id="DZZ-vM-rF5"/>
-                        <outlet property="scrollView" destination="xnh-LB-1a3" id="EPb-DA-LJN"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ArR-Ts-Upl" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5153" y="-667"/>
-        </scene>
         <!--Navigation Controller - ORTOFACE-->
         <scene sceneID="gL8-9h-aeR">
             <objects>
                 <navigationController storyboardIdentifier="navigationController" id="ROQ-KP-MVF" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="ORTOFACE" image="ortoface.png" id="7"/>
                     <toolbarItems/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="GXD-Q2-Eqt">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="GXD-Q2-Eqt">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -769,111 +732,8 @@ clinica@ortoface.es</string>
         <image name="ortoface.png" width="40" height="27"/>
         <image name="tit_banner.jpg" width="998" height="105"/>
     </resources>
-    <classes>
-        <class className="FirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="clickPageControll:"/>
-                <relationship kind="outlet" name="carousel" candidateClass="iCarousel"/>
-                <relationship kind="outlet" name="pageControll" candidateClass="UIPageControl"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="KBScrollView" superclassName="UIScrollView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/KBScrollView.h"/>
-        </class>
-        <class className="SecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="cargarInformacion:"/>
-                <relationship kind="action" name="dismisseAreasQueDebenSerMejoradas1:"/>
-                <relationship kind="action" name="dismisseAreasQueDebenSerMejoradas2:"/>
-                <relationship kind="action" name="dismisseAreasQueDebenSerMejoradas3:"/>
-                <relationship kind="action" name="dismisseConLaOrganizacionGeneralDeLaClinicaInsatisfecho:"/>
-                <relationship kind="action" name="dismisseConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho:"/>
-                <relationship kind="action" name="dismisseConLaOrganizacionGeneralDeLaClinicaMuySatisfecho:"/>
-                <relationship kind="action" name="dismisseConLaOrganizacionGeneralDeLaClinicaSatisfecho:"/>
-                <relationship kind="action" name="dismisseConLaOrganizacionGeneralDeLaClinicaTerminoMedio:"/>
-                <relationship kind="action" name="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho:"/>
-                <relationship kind="action" name="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho:"/>
-                <relationship kind="action" name="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho:"/>
-                <relationship kind="action" name="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho:"/>
-                <relationship kind="action" name="dismisseConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio:"/>
-                <relationship kind="action" name="dismisseConLasInstalacionesDondeTrabajamosInsatisfecho:"/>
-                <relationship kind="action" name="dismisseConLasInstalacionesDondeTrabajamosMuyInsatisfecho:"/>
-                <relationship kind="action" name="dismisseConLasInstalacionesDondeTrabajamosMuySatisfecho:"/>
-                <relationship kind="action" name="dismisseConLasInstalacionesDondeTrabajamosSatisfecho:"/>
-                <relationship kind="action" name="dismisseConLasInstalacionesDondeTrabajamosTerminoMedio:"/>
-                <relationship kind="action" name="dismisseCosasQueTeGustaronDeLaConsulta1:"/>
-                <relationship kind="action" name="dismisseCosasQueTeGustaronDeLaConsulta2:"/>
-                <relationship kind="action" name="dismisseCosasQueTeGustaronDeLaConsulta3:"/>
-                <relationship kind="action" name="dismisseEstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica:"/>
-                <relationship kind="action" name="dismisseRecomendariasOrtofaceUnAmigoConocidoNo:"/>
-                <relationship kind="action" name="dismisseRecomendariasOrtofaceUnAmigoConocidoSi:"/>
-                <relationship kind="action" name="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho:"/>
-                <relationship kind="action" name="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho:"/>
-                <relationship kind="action" name="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho:"/>
-                <relationship kind="action" name="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho:"/>
-                <relationship kind="action" name="dismisseSatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio:"/>
-                <relationship kind="action" name="dismisseSeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico:"/>
-                <relationship kind="action" name="enviar:"/>
-                <relationship kind="action" name="getUIKitScreeshot"/>
-                <relationship kind="outlet" name="AreasQueDebenSerMejoradas1" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="AreasQueDebenSerMejoradas2" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="AreasQueDebenSerMejoradas3" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="ConLaOrganizacionGeneralDeLaClinicaInsatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaOrganizacionGeneralDeLaClinicaMuyInsatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaOrganizacionGeneralDeLaClinicaMuySatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaOrganizacionGeneralDeLaClinicaSatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaOrganizacionGeneralDeLaClinicaTerminoMedio" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaSolucionLosProblemasPlateadosPorLosPacientesInsatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaSolucionLosProblemasPlateadosPorLosPacientesMuyInsatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaSolucionLosProblemasPlateadosPorLosPacientesMuySatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaSolucionLosProblemasPlateadosPorLosPacientesSatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLaSolucionLosProblemasPlateadosPorLosPacientesTerminoMedio" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLasInstalacionesDondeTrabajamosInsatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLasInstalacionesDondeTrabajamosMuyInsatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLasInstalacionesDondeTrabajamosMuySatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLasInstalacionesDondeTrabajamosSatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="ConLasInstalacionesDondeTrabajamosTerminoMedio" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="CosasQueTeGustaronDeLaConsulta1" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="CosasQueTeGustaronDeLaConsulta2" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="CosasQueTeGustaronDeLaConsulta3" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="EstasContentoConLaFormaQueElTratamientoHaSidoRealizadoEnNuestraClinica" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="RecomendariasOrtofaceUnAmigoConocidoNo" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="RecomendariasOrtofaceUnAmigoConocidoSi" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoInsatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuyInsatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoMuySatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoSatisfecho" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="SatisfaccionGlobalDeLaAtencionEnElTratoRecibidoTerminoMedio" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="SeHanConseguidoLosResultadosyObjetivosQueEsperabasObtenerCuandoComenzasteTuTratamientoOrtodoncico" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="backgroundImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="overlayImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="screenPictureImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="screenPictureLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="screenPictureView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="KBScrollView"/>
-            </relationships>
-        </class>
-        <class className="SuperGaleriaViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SuperGaleriaViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="clickPageControll:"/>
-                <relationship kind="outlet" name="pageControll" candidateClass="UIPageControl"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="iCarousel" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/iCarousel.h"/>
-            <relationships>
-                <relationship kind="outlet" name="dataSource"/>
-                <relationship kind="outlet" name="delegate"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>

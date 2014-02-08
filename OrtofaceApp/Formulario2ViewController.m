@@ -13,7 +13,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <ImageIO/ImageIO.h>
 #import <AssetsLibrary/AssetsLibrary.h>
-#import "FirmaDigital_Kid_ViewController.h"
+
 
 
 
@@ -40,7 +40,7 @@
 
 @synthesize messageNombre_kid, messageApellido_Kid;
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+/*-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"First to second"])
     {
@@ -50,7 +50,7 @@
         targetVC.messageNombre_kid = self.messageNombre_kid;
         targetVC.messageApellido_Kid = self.messageApellido_Kid;
     }
-}
+}*/
 
 
 

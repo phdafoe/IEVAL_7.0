@@ -13,7 +13,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <ImageIO/ImageIO.h>
 #import <AssetsLibrary/AssetsLibrary.h>
-#import "FirmaDigital_Apnea_ViewController.h"
+
 
 @interface Formulario3ViewController ()
 
@@ -37,7 +37,7 @@
 
 
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+/*-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"First to second"])
     {
@@ -47,7 +47,7 @@
         targetVC.messageNombre_Apnea = self.messageNombre_Apnea;
         targetVC.messageApellido_Apnea = self.messageApellido_Apnea;
     }
-}
+}*/
 
 
 
