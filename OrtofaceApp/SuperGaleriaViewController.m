@@ -55,7 +55,7 @@
 - (IBAction)clickPageControll:(id)sender {
     
     
-    int pages = pageControll.currentPage;
+    NSInteger pages = pageControll.currentPage;
     CGRect frame = scrollView.frame;
     frame.origin.x = frame.size.width *pages;
     frame.origin.y = 0;

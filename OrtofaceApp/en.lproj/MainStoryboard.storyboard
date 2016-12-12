@@ -146,7 +146,7 @@ clinica@ortoface.es</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4113" y="-452"/>
+            <point key="canvasLocation" x="3939" y="152"/>
         </scene>
         <!--Second View Controller - Evaluacion Final de Tratamiento-->
         <scene sceneID="13">
@@ -283,7 +283,7 @@ clinica@ortoface.es</string>
                                         </connections>
                                     </textField>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="iUa-vs-otL">
-                                        <rect key="frame" x="36" y="81" width="700" height="82"/>
+                                        <rect key="frame" x="36" y="77" width="700" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -295,7 +295,7 @@ clinica@ortoface.es</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" secureTextEntry="YES"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="dWh-7i-n4Q">
-                                        <rect key="frame" x="36" y="181" width="700" height="80"/>
+                                        <rect key="frame" x="36" y="176" width="700" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
@@ -659,7 +659,7 @@ clinica@ortoface.es</string>
                 </imageView>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4017" y="1284"/>
+            <point key="canvasLocation" x="3939" y="1284"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">

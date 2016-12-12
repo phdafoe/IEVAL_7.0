@@ -584,7 +584,7 @@
     
     CGSize imageSize = [[UIScreen mainScreen]bounds].size;
     
-    if (NULL != UIGraphicsBeginImageContextWithOptions)
+    if (NULL != &UIGraphicsBeginImageContextWithOptions)
         UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0);
     else
         UIGraphicsBeginImageContext(imageSize);
@@ -608,11 +608,8 @@
     
     
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    
     UIGraphicsEndImageContext();
-    
     UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
-    
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Atención!"
                                                     message:@"Proceso realizado Satisfactoriamente"
                                                    delegate:nil
